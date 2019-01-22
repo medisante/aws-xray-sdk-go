@@ -11,10 +11,11 @@ package xray
 import (
 	"context"
 	"encoding/json"
-	"github.com/aws/aws-xray-sdk-go/header"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/medisante/aws-xray-sdk-go/header"
 )
 
 var (

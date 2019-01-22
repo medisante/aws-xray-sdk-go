@@ -16,9 +16,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/aws/aws-xray-sdk-go/header"
-	"github.com/aws/aws-xray-sdk-go/internal/plugins"
 	log "github.com/cihub/seelog"
+	"github.com/medisante/aws-xray-sdk-go/header"
+	"github.com/medisante/aws-xray-sdk-go/internal/plugins"
 )
 
 // NewTraceID generates a string format of random trace ID.

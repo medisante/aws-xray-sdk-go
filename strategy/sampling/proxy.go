@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/aws/session"
 	xraySvc "github.com/aws/aws-sdk-go/service/xray"
-	"github.com/aws/aws-xray-sdk-go/daemoncfg"
 	log "github.com/cihub/seelog"
+	"github.com/medisante/aws-xray-sdk-go/daemoncfg"
 )
 
 // proxy is an implementation of svcProxy that forwards requests to the XRay daemon

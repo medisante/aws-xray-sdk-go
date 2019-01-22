@@ -21,8 +21,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/client"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-xray-sdk-go/resources"
 	log "github.com/cihub/seelog"
+	"github.com/medisante/aws-xray-sdk-go/resources"
 )
 
 const RequestIDKey string = "request_id"

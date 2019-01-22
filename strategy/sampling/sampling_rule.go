@@ -11,8 +11,8 @@ package sampling
 import (
 	"sync"
 
-	"github.com/aws/aws-xray-sdk-go/pattern"
-	"github.com/aws/aws-xray-sdk-go/utils"
+	"github.com/medisante/aws-xray-sdk-go/pattern"
+	"github.com/medisante/aws-xray-sdk-go/utils"
 
 	xraySvc "github.com/aws/aws-sdk-go/service/xray"
 	log "github.com/cihub/seelog"

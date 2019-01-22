@@ -17,12 +17,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aws/aws-xray-sdk-go/strategy/sampling"
+	"github.com/medisante/aws-xray-sdk-go/strategy/sampling"
 
-	"github.com/aws/aws-xray-sdk-go/header"
-	"github.com/aws/aws-xray-sdk-go/internal/plugins"
-	"github.com/aws/aws-xray-sdk-go/pattern"
 	log "github.com/cihub/seelog"
+	"github.com/medisante/aws-xray-sdk-go/header"
+	"github.com/medisante/aws-xray-sdk-go/internal/plugins"
+	"github.com/medisante/aws-xray-sdk-go/pattern"
 )
 
 // SegmentNamer is the interface for naming service node.

@@ -16,10 +16,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws/aws-xray-sdk-go/daemoncfg"
-	"github.com/aws/aws-xray-sdk-go/internal/plugins"
+	"github.com/medisante/aws-xray-sdk-go/daemoncfg"
+	"github.com/medisante/aws-xray-sdk-go/internal/plugins"
 
-	"github.com/aws/aws-xray-sdk-go/utils"
+	"github.com/medisante/aws-xray-sdk-go/utils"
 
 	xraySvc "github.com/aws/aws-sdk-go/service/xray"
 	log "github.com/cihub/seelog"

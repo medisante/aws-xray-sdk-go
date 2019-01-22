@@ -15,7 +15,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aws/aws-xray-sdk-go/strategy/exception"
+	"github.com/medisante/aws-xray-sdk-go/strategy/exception"
 	"github.com/stretchr/testify/assert"
 )
 
