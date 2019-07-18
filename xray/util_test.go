@@ -11,10 +11,11 @@ package xray
 import (
 	"context"
 	"encoding/json"
-	"github.com/aws/aws-xray-sdk-go/header"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/aws/aws-xray-sdk-go/header"
 )
 
 var (
@@ -74,7 +75,7 @@ func (td *Testdaemon) Run() {
 }
 
 func (td *Testdaemon) Recv() (*Segment, error) {
-	ctx, cancel := context.WithTimeout(context.Background(), 100*time.Millisecond)
+	ctx, cancel := context.WithTimeout(context.Background(), 500*time.Millisecond)
 	defer cancel()
 	select {
 	case r := <-td.Channel:
